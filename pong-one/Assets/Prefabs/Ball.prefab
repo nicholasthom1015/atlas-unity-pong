@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6573753715603139188}
   - component: {fileID: 7088450685136618397}
   - component: {fileID: 654414568538675081}
-  m_Layer: 5
+  - component: {fileID: 3444527932696478856}
+  m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,7 +87,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 168459308317466329}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a97524e856fe35b47acea414d893eb0c, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -138,4 +139,20 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 2
+  m_Constraints: 4
+--- !u!114 &3444527932696478856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168459308317466329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3664ff5b9db41042877687aae33d625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 600
+  speedIncrease: 30
+  playerScore: {fileID: 0}
+  AIScore: {fileID: 0}
