@@ -876,8 +876,8 @@ MonoBehaviour:
   isAI: 0
   PlayerTwo: 1
   ball: {fileID: 2835053371265768735}
-  upkey: 273
-  downkey: 274
+  upKey: 273
+  downKey: 274
 --- !u!114 &568518040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1317,8 +1317,8 @@ MonoBehaviour:
   isAI: 0
   PlayerTwo: 0
   ball: {fileID: 2835053371265768735}
-  upkey: 119
-  downkey: 115
+  upKey: 119
+  downKey: 115
 --- !u!114 &1383360696
 MonoBehaviour:
   m_ObjectHideFlags: 0

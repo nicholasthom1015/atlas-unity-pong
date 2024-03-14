@@ -12,8 +12,8 @@ public class Pla : MonoBehaviour
 
     private Rigidbody2D rb; 
     private Vector2 playerMove;
-    public KeyCode upkey;
-    public KeyCode downkey;
+    public KeyCode upKey;
+    public KeyCode downKey;
 
     // Start is called before the first frame update
     void Start()
