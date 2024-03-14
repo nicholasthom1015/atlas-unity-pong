@@ -7,6 +7,7 @@ public class Pla : MonoBehaviour
 
     [SerializeField] private float movementSpeed;
     [SerializeField] private bool isAI;
+    [SerializeField] private bool PlayerTwo;
     [SerializeField] private GameObject ball;
 
     private Rigidbody2D rb; 
@@ -25,6 +26,12 @@ public class Pla : MonoBehaviour
         {
             AIControl();
         }
+        
+        else if (PlayerTwo)
+        {
+            //PlayerTwoControl();
+        }
+
         else
         {
             playerControl();
@@ -57,6 +64,8 @@ public class Pla : MonoBehaviour
             playerMove = new Vector2(0, 0);
         }
     }
+
+    //private void PlayerTwoControl()
 
     void FixedUpdate()
     {

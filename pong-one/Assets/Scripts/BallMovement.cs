@@ -28,7 +28,7 @@ public class BallMovement : MonoBehaviour
 
     private void StartBall()
     {
-        rb.velocity = new Vector2(-1, 0) * (initialSpeed + speedIncrease * hitCounter);
+        rb.velocity = new Vector2(-1, -2) * (initialSpeed + speedIncrease * hitCounter);
     }
 
     private void Resetball()
