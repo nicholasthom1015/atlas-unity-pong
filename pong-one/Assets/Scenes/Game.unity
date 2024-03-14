@@ -873,6 +873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 300
   isAI: 1
+  PlayerTwo: 0
   ball: {fileID: 2835053371265768735}
 --- !u!1 &975664153
 GameObject:
@@ -887,7 +888,7 @@ GameObject:
   - component: {fileID: 975664155}
   - component: {fileID: 975664157}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1298,6 +1299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 500
   isAI: 0
+  PlayerTwo: 0
   ball: {fileID: 0}
 --- !u!1 &1599279457
 GameObject:
