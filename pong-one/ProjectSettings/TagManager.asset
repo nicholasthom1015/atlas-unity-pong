@@ -7,6 +7,7 @@ TagManager:
   - Goal
   - Ball
   - AI
+  - Paddle
   layers:
   - Default
   - TransparentFX

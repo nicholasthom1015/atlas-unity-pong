@@ -1150,8 +1150,8 @@ GameObject:
   - component: {fileID: 1383360691}
   - component: {fileID: 1383360695}
   m_Layer: 5
-  m_Name: PlayerOne
-  m_TagString: Player
+  m_Name: Player One
+  m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
