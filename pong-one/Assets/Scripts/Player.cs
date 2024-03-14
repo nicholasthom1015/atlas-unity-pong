@@ -12,6 +12,8 @@ public class Pla : MonoBehaviour
 
     private Rigidbody2D rb; 
     private Vector2 playerMove;
+    public KeyCode upkey;
+    public KeyCode downkey;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +31,7 @@ public class Pla : MonoBehaviour
         
         else if (PlayerTwo)
         {
-            //PlayerTwoControl();
+            PlayerTwoControl();
         }
 
         else
@@ -65,7 +67,14 @@ public class Pla : MonoBehaviour
         }
     }
 
-    //private void PlayerTwoControl()
+    private void PlayerTwoControl()
+    {
+        float Move2 = Input.GetAxisRaw("Horizontal");
+
+        Vector2 move = new Vector2(0, Move2);
+        move *= movementSpeed * Time.deltaTime;
+        transform.Translate(move);
+    }
 
     void FixedUpdate()
     {

@@ -873,9 +873,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 300
-  isAI: 1
-  PlayerTwo: 0
+  isAI: 0
+  PlayerTwo: 1
   ball: {fileID: 2835053371265768735}
+  upkey: 273
+  downkey: 274
 --- !u!114 &568518040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1314,7 +1316,9 @@ MonoBehaviour:
   movementSpeed: 500
   isAI: 0
   PlayerTwo: 0
-  ball: {fileID: 0}
+  ball: {fileID: 2835053371265768735}
+  upkey: 119
+  downkey: 115
 --- !u!114 &1383360696
 MonoBehaviour:
   m_ObjectHideFlags: 0
