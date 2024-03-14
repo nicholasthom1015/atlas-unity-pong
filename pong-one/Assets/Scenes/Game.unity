@@ -723,6 +723,7 @@ GameObject:
   - component: {fileID: 568518036}
   - component: {fileID: 568518035}
   - component: {fileID: 568518039}
+  - component: {fileID: 568518040}
   m_Layer: 5
   m_Name: AI
   m_TagString: AI
@@ -875,6 +876,18 @@ MonoBehaviour:
   isAI: 1
   PlayerTwo: 0
   ball: {fileID: 2835053371265768735}
+--- !u!114 &568518040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568518033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559a2fb4ec93fc343b416f1776e97e3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &975664153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,6 +1162,7 @@ GameObject:
   - component: {fileID: 1383360692}
   - component: {fileID: 1383360691}
   - component: {fileID: 1383360695}
+  - component: {fileID: 1383360696}
   m_Layer: 5
   m_Name: Player One
   m_TagString: Paddle
@@ -1301,6 +1315,18 @@ MonoBehaviour:
   isAI: 0
   PlayerTwo: 0
   ball: {fileID: 0}
+--- !u!114 &1383360696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383360689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559a2fb4ec93fc343b416f1776e97e3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1599279457
 GameObject:
   m_ObjectHideFlags: 0
