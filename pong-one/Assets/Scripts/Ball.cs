@@ -28,7 +28,7 @@ public class BallMovement : MonoBehaviour
 
     private void StartBall()
     {
-        rb.velocity = new Vector2(-1, -2) * (initialSpeed + speedIncrease * hitCounter);
+        rb.velocity = new Vector2(-1, -1) * (initialSpeed + speedIncrease * hitCounter);
     }
 
     private void Resetball()
@@ -68,7 +68,7 @@ public class BallMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "Player" || collision.gameObject.name == "AI")
+        if(collision.gameObject.name == "Player One" || collision.gameObject.name == "Player Two")
         {
             PlayerBounce(collision.transform);
         }

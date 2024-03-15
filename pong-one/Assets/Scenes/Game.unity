@@ -873,8 +873,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 300
-  isAI: 0
-  PlayerTwo: 1
+  isAI: 1
+  PlayerTwo: 0
   ball: {fileID: 2835053371265768735}
   upKey: 273
   downKey: 274
